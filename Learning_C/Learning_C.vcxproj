@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="exchange_rate.c" />
+    <ClCompile Include="recursion.c" />
     <ClCompile Include="sum_of_natural_numbers.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

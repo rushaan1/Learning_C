@@ -21,5 +21,8 @@
     <ClCompile Include="exchange_rate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="recursion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
