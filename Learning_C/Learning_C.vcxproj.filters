@@ -18,5 +18,8 @@
     <ClCompile Include="sum_of_natural_numbers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exchange_rate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
