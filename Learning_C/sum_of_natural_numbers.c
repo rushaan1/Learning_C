@@ -6,10 +6,10 @@ int main() {
     
     printf("Sum of how many naural numbers: ");
     scanf_s("%d",&n);
-    int container_for_n_reverse = n;
-    for (int i = 1; i <= n; i++) {
+    
+    for (int i = 1, j=n; i <= n, j>=1; i++, j--) {
         sum = i+sum;
-        printf("%d\n", container_for_n_reverse--);
+        printf("%d\n", j);
     }
     printf("%d",sum);
 
