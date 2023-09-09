@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arrays.c" />
     <ClCompile Include="exchange_rate.c" />
     <ClCompile Include="pointers.c" />
     <ClCompile Include="recursion.c" />

@@ -27,5 +27,8 @@
     <ClCompile Include="pointers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="arrays.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
