@@ -143,6 +143,7 @@
     <ClCompile Include="exchange_rate.c" />
     <ClCompile Include="pointers.c" />
     <ClCompile Include="recursion.c" />
+    <ClCompile Include="strings.c" />
     <ClCompile Include="sum_of_natural_numbers.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
