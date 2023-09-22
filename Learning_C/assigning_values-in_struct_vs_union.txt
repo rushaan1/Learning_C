@@ -1,7 +1,6 @@
 You can assign different values to the integer and floating-point variables within a union, but you should be aware of how unions work. When you assign a value to one member of a union, it occupies the same memory location as the other members. Therefore, if you assign a value to one member, it may affect the value of the other member because they share the same memory. Here's an example to illustrate this:
 
-c
-Copy code
+
 #include <stdio.h>
 
 union Number {
