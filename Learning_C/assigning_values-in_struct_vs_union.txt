@@ -1,0 +1,28 @@
+You can assign different values to the integer and floating-point variables within a union, but you should be aware of how unions work. When you assign a value to one member of a union, it occupies the same memory location as the other members. Therefore, if you assign a value to one member, it may affect the value of the other member because they share the same memory. Here's an example to illustrate this:
+
+c
+Copy code
+#include <stdio.h>
+
+union Number {
+    int integer;
+    float floating;
+};
+
+int main() {
+    union Number num;
+
+    num.integer = 42;
+    printf("Integer: %d\n", num.integer);
+
+    num.floating = 3.14;
+    printf("Float: %f\n", num.floating);
+
+    // The value of 'integer' has been overwritten
+    printf("Integer after assigning a float: %d\n", num.integer);
+
+    return 0;
+}
+In this example, we first assign the value 42 to num.integer, and it prints as expected. However, when we later assign the value 3.14 to num.floating, it overwrites the memory shared with num.integer, affecting its value.
+
+So, while you can assign different values to members of a union, you need to be cautious and aware that changing one member's value may affect the others because they share the same memory location. Unions are typically used when you need to represent different types of data using the same memory space and when you only need one of the members at a time.
