@@ -4,6 +4,8 @@
 #include <windows.h>
 #include <conio.h>
 
+// CODE NEEDS GCC COMPILER AND WINDOWS TO RUN 
+
 int main(){
    HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
     char colorChoice;
